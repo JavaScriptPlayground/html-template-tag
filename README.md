@@ -11,7 +11,7 @@ Create an HTML template and include it everywhere on your website.
         <meta charset="UTF-8">
         <title>HTML-template</title>
 
-        <!-- include script -->
+        <!-- include template.js script -->
         <script src="./js/template.js" type="module" defer></script>
     </head>
     <body>
