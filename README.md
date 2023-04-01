@@ -1,6 +1,6 @@
 # HTML \<template\> tag script
 
-Create an HTML template and include it everywhere on your website.
+Create an HTML template and include it everywhere on your website using the `<template>` tag.
 
 ## HTML
 
