@@ -4,7 +4,10 @@ Create an HTML template and include it everywhere on your website.
 
 ## HTML
 
+This is the main HTML page where we want to use the `<template>` tag. Use the `src` attribute to specify the source for the template.
+
 ```html
+<!-- index.html (before template replace) -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -22,9 +25,12 @@ Create an HTML template and include it everywhere on your website.
 
 ## Template
 
-This is the HTML template. Everything inside the `<head>` tag will later be replaced into the `<head>` tag of the actual page.
+This is the HTML template. Everything inside the `<head>` tag will later be replaced into the `<head>` tag of the actual page. The same is applied to the `<body>` tag.
+
+`<script>` tags are **not** executed!
 
 ```html
+<!-- template.html -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -41,6 +47,7 @@ This is the HTML template. Everything inside the `<head>` tag will later be repl
 This is the final version of the HTML page after the templates have been replaced.
 
 ```html
+<!-- index.html (after template replace) -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
