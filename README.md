@@ -15,7 +15,7 @@ This is the main HTML page where we want to use the `<template>` tag. Use the `s
         <title>HTML-template</title>
 
         <!-- include template.js script -->
-        <script src="./js/template.js" type="module" defer></script>
+        <script src="./template.js" type="module" defer></script>
     </head>
     <body>
         <template src="./template.html"></template>
