@@ -1,4 +1,4 @@
-# HTML \<template\> tag
+# HTML \<template\> tag script
 
 Create an HTML template and include it everywhere on your website.
 
