@@ -4,7 +4,7 @@ Create an HTML template and include it everywhere on your website using the `<te
 
 ## HTML
 
-This is the main HTML page where we want to use the `<template>` tag. Use the `src` attribute to specify the source for the template.
+This is the main HTML page where we want to use the `<template>` tag. Use the `src` attribute to specify the source path for the HTML template file.
 
 ```html
 <!-- index.html (before template replace) -->
