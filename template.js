@@ -1,6 +1,6 @@
 const templates = [];
 
-for (const template of document.getElementsByTagName('include')) {
+for (const template of document.getElementsByTagName('template')) {
     templates.push(template)
     await fetch(template.getAttribute('src'))
         .then(file => file.text())
