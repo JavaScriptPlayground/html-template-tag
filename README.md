@@ -2,6 +2,25 @@
 
 Create an HTML template and include it everywhere on your website using the `<template>` tag.
 
+## Template
+
+This is the HTML template. Everything inside the `<head>` tag will later be replaced into the `<head>` tag of the actual page. The same is applied to the `<body>` tag.
+
+`<script>` tags are **not** executed!
+
+```html
+<!-- template.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>Hello World!</p>
+    </body>
+</html>
+```
+
 ## HTML
 
 This is the main HTML page where we want to use the `<template>` tag. Use the `src` attribute to specify the source path for the HTML template file.
@@ -23,24 +42,7 @@ This is the main HTML page where we want to use the `<template>` tag. Use the `s
 </html>
 ```
 
-## Template
 
-This is the HTML template. Everything inside the `<head>` tag will later be replaced into the `<head>` tag of the actual page. The same is applied to the `<body>` tag.
-
-`<script>` tags are **not** executed!
-
-```html
-<!-- template.html -->
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <p>Hello World!</p>
-    </body>
-</html>
-```
 
 ## Replace
 
