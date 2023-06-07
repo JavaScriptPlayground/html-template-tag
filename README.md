@@ -17,6 +17,7 @@ This is the HTML template. Everything inside the `<head>` tag will later be repl
     </head>
     <body>
         <p>Hello World!</p>
+        <p>This is amazing!</p>
     </body>
 </html>
 ```
@@ -60,6 +61,7 @@ This is the final version of the HTML page after the templates have been replace
     </head>
     <body>
         <p>Hello World!</p>
+        <p>This is amazing!</p>
     </body>
 </html>
 ```
