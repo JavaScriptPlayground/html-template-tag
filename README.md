@@ -35,7 +35,7 @@ This is the main HTML page where we want to use the `<template>` tag. Use the `s
         <title>HTML-template</title>
 
         <!-- include template.js script -->
-        <script src="./template.js" type="module" defer></script>
+        <script src="https://raw.githubusercontent.com/JavaScriptPlayground/html-template-tag/main/template.js" type="module" defer></script>
     </head>
     <body>
         <template src="./template.html"></template>
@@ -56,11 +56,11 @@ This is the final version of the HTML page after the templates have been replace
         <title>HTML-template</title>
 
         <!-- include script -->
-        <script src="./js/template.js" type="module" defer></script>
-        <link rel="stylesheet" href="style.css">
+        <script src="https://raw.githubusercontent.com/JavaScriptPlayground/html-template-tag/main/template.js" type="module" defer></script>
+        <link rel="stylesheet" href="style.css"> <!-- <-- This link tag was added from the template head tag -->
     </head>
     <body>
-        <p>Hello World!</p>
+        <p>Hello World!</p> <!-- <-- These two p tags were added from the template body tag -->
         <p>This is amazing!</p>
     </body>
 </html>
