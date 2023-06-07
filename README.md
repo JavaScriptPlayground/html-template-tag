@@ -21,7 +21,7 @@ This is the HTML template. Everything inside the `<head>` tag will later be repl
 </html>
 ```
 
-## HTML
+## Index (before replace)
 
 This is the main HTML page where we want to use the `<template>` tag. Use the `src` attribute to specify the source path for the HTML template file.
 
@@ -42,9 +42,7 @@ This is the main HTML page where we want to use the `<template>` tag. Use the `s
 </html>
 ```
 
-
-
-## Replace
+## Index (after replace)
 
 This is the final version of the HTML page after the templates have been replaced.
 
