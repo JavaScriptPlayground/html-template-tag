@@ -61,10 +61,10 @@ This is the final version of the HTML page after the templates have been replace
 
         <!-- include script -->
         <script src="https://raw.githubusercontent.com/JavaScriptPlayground/html-template-tag/main/template.js" type="module" defer></script>
-        <link rel="stylesheet" href="style.css"> <!-- <-- This <link> tag was added from the template <head> tag -->
+        <link rel="stylesheet" href="style.css"> <!-- This <link> tag was added from the template <head> tag -->
     </head>
     <body>
-        <p>Hello World!</p> <!-- <-- These two <p> tags were added from the template <body> tag -->
+        <p>Hello World!</p> <!-- These two <p> tags were added from the template <body> tag -->
         <p>This is amazing!</p>
     </body>
 </html>
