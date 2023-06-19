@@ -12,9 +12,13 @@ This is the HTML template. Everything inside the `<head>` tag will later be repl
 <!-- template.html -->
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Everything enclosed within the <head> tag is inserted into the <head> tag,
+    in the document where the <template> tag is used. -->
     <head>
         <link rel="stylesheet" href="style.css">
     </head>
+    <!-- Everything enclosed within the <body> tag is inserted at the location,
+    in the document where the <template> tag is used. -->
     <body>
         <p>Hello World!</p>
         <p>This is amazing!</p>
