@@ -2,7 +2,12 @@
 
 Create an HTML template and include it everywhere on your website using the `<template>` tag.
 
-It is not guaranteed that this script works with other frameworks!
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/info.svg">
+>   <img alt="Info" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/info.svg">
+> </picture><br>
+>
+> It is not guaranteed that this script works with other frameworks!
 
 ## Template
 
