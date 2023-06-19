@@ -2,6 +2,8 @@
 
 Create an HTML template and include it everywhere on your website using the `<template>` tag.
 
+It is not guaranteed that this script works with other frameworks!
+
 ## Template
 
 This is the HTML template. Everything inside the `<head>` tag will later be replaced into the `<head>` tag of the actual page. The same is applied to the `<body>` tag.
